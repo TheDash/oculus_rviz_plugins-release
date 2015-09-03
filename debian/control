@@ -1,0 +1,12 @@
+Source: ros-indigo-oculus-rviz-plugins
+Section: misc
+Priority: extra
+Maintainer: David Gossow <dgossow@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libogre-1.8-dev, libqt4-dev, libqt4-opengl-dev, ros-indigo-catkin, ros-indigo-oculus-sdk, ros-indigo-roscpp, ros-indigo-rviz, ros-indigo-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-oculus-rviz-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libogre-1.8-dev, libqt4-dev, libqt4-opengl-dev, ros-indigo-oculus-sdk, ros-indigo-roscpp, ros-indigo-rviz, ros-indigo-tf
+Description: RViz plugins for the Oculus Rift.
